@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #131313;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  list-style-type: none;
+  margin-right: 10rem;
+}
+.logo {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+ul a {
+  text-decoration: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  gap: 3rem;
+}
+.search > button {
+  box-sizing: border-box;
+  width: 179px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  height: 60px;
+  color: white;
+  border: 1px solid #5ba300;
+  border-radius: 24px;
+  background-color: #131313;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.search > button:hover {
+  background-color: #131313;
+  border: 1px solid white;
+  color: white;
+}
+.nft {
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 1000px;
+  height: 500px;
+  margin-top: 95.5px;
+  margin-left: 140px;
+}
+.main {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.nft button {
+  background-color: #08a000;
+  color: white;
+  height: 100px;
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  top: 550px;
+  left: 600px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: "Arial";
+}
+.nft button:hover {
+  background-color: #40ff00;
+}
+.nft p {
+  color: white;
+  position: absolute;
+  top: 515px;
+  left: 625px;
+  font-size: 25px;
+  font-family: "Arial";
+}
+.nft h1 {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-family: "Arial";
+}
+.fgh {
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
+.asd {
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 750px;
+}
+.jkl {
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
